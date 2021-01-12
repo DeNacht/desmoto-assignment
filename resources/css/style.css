@@ -1,0 +1,91 @@
+.container{
+    margin: 50px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    width: 90vw;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    justify-content: center;    
+    
+}
+
+.header-title{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    flex-basis: auto;
+}
+
+.brushes h1{
+    font-family: Helvetica; 
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+.frames h1{
+    font-family: Helvetica; 
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+.paint h1{
+    font-family: Helvetica; 
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+.subtitle{
+    font-weight: bold;
+    padding: 13px 13px 13px 0;
+    
+}
+
+.brushes{
+    display: flex;
+    flex-direction: row;
+    background-color: mediumspringgreen;
+    width: 90vw;
+    margin-bottom: 20px;
+    justify-content: left;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+}
+ 
+ .frames{
+    display: flex;
+    flex-direction: row;
+    background-color: lightcoral;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    justify-content: left;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+ }   
+
+ .paint{
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    justify-content: left;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+ }
